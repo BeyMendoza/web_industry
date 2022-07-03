@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(../assets/images/header/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+header .container {
+  height: 100%;
+}
+header .container .img-person-asset {
+  height: 100vh;
+  padding: 10vh;
+}
+header .container .img-person-asset .img {
+  height: 10vh;
+}
+header .container h5 {
+  color: rgb(255, 217, 0);
+  position: relative;
+}
+header .container h4 {
+  color: white;
+}
+header .container p {
+  color: white;
+}
+header .container bt {
+  color: transparent;
+  border-color: white;
+}
+header .container .img-col {
+  height: 65vh;
+}
+header .container .img-col img {
+  height: 90%;
+}
+
+main .section-welcome {
+  height: 35vh;
+  padding: 10px;
+}
+main .section-services {
+  height: 30vh;
+}
+main .section-services img {
+  height: 260px;
+  display: flex;
+  text-align: center;
+}
+main .section-special-offerts .col {
+  min-height: 5rem;
+}
+main .section-special-offerts .col .img-container {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+main .section-special-offerts .col .img-container img {
+  height: 120px;
+}
+
+.hr {
+  margin: 10px 0px;
+  width: 100px;
+  min-height: 5px;
+  background-color: #ffc107;
+}
+
+.bg-img-fix {
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}/*# sourceMappingURL=style.css.map */

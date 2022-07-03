@@ -1,0 +1,5 @@
+@media (max-width: 550px) {
+  header #header-person-img {
+    display: none;
+  }
+}/*# sourceMappingURL=mobile.styles.css.map */

@@ -1,0 +1,125 @@
+$primary-color: #ffc107;
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(../assets/images/header/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+
+    .container {
+        height: 100%;
+
+        .img-person-asset {
+            height: 100vh;
+            padding: 10vh;
+
+            .img {
+                height: 10vh;
+
+            }
+
+        }
+
+        h5 {
+
+            color: rgb(255, 217, 0);
+            position: relative;
+        }
+
+        h4 {
+            color: white;
+        }
+
+
+
+
+
+        p {
+            color: white;
+        }
+
+        bt {
+            color: transparent;
+            border-color: white;
+
+        }
+
+
+        .img-col {
+
+            height: 65vh;
+
+            img {
+                height: 90%;
+            }
+        }
+
+
+    }
+
+}
+
+
+main {
+    .section-welcome {
+        height: 35vh;
+        padding: 10px;
+
+
+
+
+    }
+
+    .section-services {
+        height: 30vh;
+
+
+
+        img {
+            height: 260px;
+            display: flex;
+            text-align: center;
+
+        }
+
+    }
+
+    .section-special-offerts {
+        .col {
+            min-height: 5rem;
+
+            .img-container {
+                height: fit-content;
+
+                img {
+                    height: 120px;
+                }
+            }
+        }
+    }
+
+    .section-portfolio {}
+
+    // .section-best-team {}
+
+
+
+    .hr {
+        margin: 10px 0px;
+        width: 100px;
+        min-height: 5px;
+        background-color: $primary-color;
+    }
+
+
+
+    .bg-img-fix {
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
